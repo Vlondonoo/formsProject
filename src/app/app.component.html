@@ -1,0 +1,19 @@
+<form [formGroup]="form1">
+
+<label>
+  Name:
+  <input type="text" formControlName="name">
+  Password:
+  <input type="text" formControlName="password">
+</label>
+
+<p>
+  Value: {{name.value}}
+</p>
+
+
+
+
+
+<router-outlet></router-outlet>
+</form>
